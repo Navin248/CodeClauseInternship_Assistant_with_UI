@@ -6,7 +6,7 @@ import pyttsx3
 from uutils import insertText
 
 # Set up gemini ai api
-genai.configure(api_key="AIzaSyAMVfe_0u1VwKHDS5GakK01XdgD7iG09uY")
+genai.configure(api_key="YOUR_GOOGLE_API_KEY")
 
 # Set up the model
 generation_config = {
